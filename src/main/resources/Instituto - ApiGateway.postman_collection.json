@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "e25a361a-b79b-4bcc-b88e-a11e709c3d7f",
+		"name": "Instituto - ApiGateway",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6041738"
+	},
+	"item": [
+		{
+			"name": "Alumnos",
+			"item": [
+				{
+					"name": "Alumno Listado",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8090/api/alumno",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8090",
+							"path": [
+								"api",
+								"alumno"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Departamento listado",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8090/api/departamento",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8090",
+							"path": [
+								"api",
+								"departamento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Asignatura Listado",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8090/api/asignatura",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8090",
+							"path": [
+								"api",
+								"asignatura"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
